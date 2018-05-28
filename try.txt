@@ -1,0 +1,3 @@
+import os
+>>> for k, v in os.environ.items():      1 2
+...     print "%s=%s" % (k, v)

@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jan 25 10:45:25 2017
+
+@author: mustafa
+"""
+
+income_input = {"Alex":500, "James":20500, "Kinuthia":70000}
+print(income_input)

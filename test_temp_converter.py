@@ -6,11 +6,8 @@ class TempConverterTest(unittest.TestCase):
     #data type for input
     #if it throws an exception when data type is incorrect
     #check for null values -> throw an error
-    def test_Celcius_to_Fareinheight(self):
+    def test_celcius_is_converted_to _fareinheit(self):
        #F = c * 9/5 + 32
        actual = convert_celcius_to_fareinheit(10)
        expected = 50
        self.assertEqual(actual,expected,"celcius should convert to correct Farenheit")
-
-if __name__ == "__main__":
-    unittest.main()
